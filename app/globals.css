@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-news-card-gradient {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.7727883389683998) 82%, rgba(0,0,0,0.8652253137583158) 100%);
+  }
+}
